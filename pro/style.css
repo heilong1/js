@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(199, 235, 250);
+    color: rgb(66, 2, 78);
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px
+}
+
+p {
+    text-align: justify;
+    margin: 15px;
+    font-size: 20px
+}
+
+code {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Monospace;
+    color: blue;
+}
+
+#topnav {
+    position: fixed;
+    background-color: rgb(147, 190, 255);
+    width: 100%;
+}
+
+#maincon {
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(135, 243, 132);
+    left: 10%;
+    right: 10%;
+}
