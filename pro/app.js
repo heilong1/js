@@ -61,13 +61,15 @@ const codesNodes = document.querySelectorAll(".code");
 //_____________________________________________________________
 //_____________________________________________________________
 
+const gen = (n,w) => num => num % n === 0 ? w : ''
 
-const url = 'https://jsonplaceholder.typicode.com/users'
+const fizz = gen(3,'fizz')
+const buzz = gen(5,'buzz')
 
-const xhr = new XMLHttpRequest()
-
-xhr.open('GET', url)
-xhr.send()
+for (let i = 0; i < 20; i++) {
+  console.log(fizz(i) + buzz(i) || i);
+  
+}
 
 // _________________________________Склад____________________
 // __________________________________________________________
